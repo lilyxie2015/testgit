@@ -177,3 +177,4 @@ if __name__ == '__main__':
     execlfile = './testdata/indexfile.xls'
     path = './apitest'
     init_case_from_execl(execlfile,path)
+    test20160831
