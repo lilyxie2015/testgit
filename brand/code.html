@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>内测码</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loginBox">
+        <div class="login-content">
+            <div class="logobox">
+                <i class="fn-icon logo"></i>
+                <p class="name">商家注册</p>
+            </div>
+            <form method="get" action="" class="form-horizontal" id="codeForm">
+                <div class="form-group">
+                    <div class="inputbox">
+                        <input type="text" placeholder="请输入内测码" class="form-control" id="regCode" name="regCode">
+                        <label id="regCode-error" class="error" for="regCode">请输入内测码</label>
+                        <span class="input-group-btn"> <button type="submit" class="btn btn-primary btn-go">Go!</button> </span>
+                    </div>
+                </div>
+                <div class="input-error" id="errorTip"><span></span></div>
+            </form>
+        </div>
+        <div class="footer">©2015-2016 杭州当堂信息技术有限公司 | 版权所有</div>
+    </div>
+    
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/register.js"></script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>品牌加盟</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loginBox">
+        <div class="login-content">
+            <div class="logobox">
+                <i class="fn-icon logo"></i>
+                <p class="name">商家注册</p>
+            </div>
+            <form method="get" action="" class="form-horizontal" id="registerForm">
+                <div class="form-title"><span>商家基本信息</span></div>
+                <div class="form-group">
+                    <input type="text" placeholder="请填写商家名称" class="form-control" name="brandName">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="请填写联系人姓名" class="form-control" name="userName">
+                </div>
+                <div class="form-title"><span>账号注册信息</span></div>
+                <div class="form-group">
+                    <input type="text" placeholder="请填写联系人手机号码做为后台登录账号" maxlength="11" class="form-control" name="mobile" id="mobile">
+                </div>
+                <div class="form-group">
+                    <div class="inputbox">
+                        <input type="text" placeholder="请输入收到的验证码" class="form-control" name="smsCode">
+                        <span class="input-group-btn"> <button type="button" class="btn btn-primary btn-send " id="getSmsBtn">短信获取验证码</button> </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="请设置的登录密码" class="form-control" name="password">
+                </div>
+                <div class="input-error" id="registerError"><span></span></div>
+                <div><button type="submit" class="btn btn-primary btn-login btn-block" id="registerBtn">确认注册</button></div>
+            </form>
+        </div>
+        <div class="footer">©2015-2016 杭州当堂信息技术有限公司 | 版权所有</div>
+    </div>
+
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/register.js"></script>
+</html>
